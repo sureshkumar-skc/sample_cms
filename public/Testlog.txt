@@ -1,0 +1,422 @@
+1subjectId: 1
+ result: 
+ query: INSERT INTO pages(subject_id, menu_name, position, visible, content) VALUES('2', Editable widget', '3', '0', 'This is a special type of widget where user can able to edit the widget as required')
+ result: 
+ query: INSERT INTO pages(subject_id, menu_name, position, visible, content) VALUES('2', 'Editable widget', '3', '0', 'This is a special type of widget where user can able to edit the widget as required')
+ result: 1
+ selected_page_detials: Array
+ selected_page_detials: Array
+ selected_page_detials: ArrayArray
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 9
+    [subject_id] => 2
+    [menu_name] => Editable widget
+    [position] => 3
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 9
+    [subject_id] => 2
+    [menu_name] => Editable widget
+    [position] => 3
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 4
+    [subject_id] => 2
+    [menu_name] => Small widgets
+    [position] => 2
+    [visible] => 1
+    [content] => They say big things come in small packages...
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required edited
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required edited
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required edited
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required edited
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required edited
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable wddddidget
+    [position] => 4
+    [visible] => 0
+    [content] => This is a special type of widget where user can able to edit the widget as required edited
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 3
+    [subject_id] => 2
+    [menu_name] => Large widgets
+    [position] => 1
+    [visible] => 1
+    [content] => Our large widget have to be seen to be beleived...
+)
+Array
+(
+    [id] => 11
+    [subject_id] => 4
+    [menu_name] => Test misc
+    [position] => 1
+    [visible] => 1
+    [content] => Test
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget new
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget new
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget new
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget new
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget new
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget new
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
+Array
+(
+    [id] => 10
+    [subject_id] => 2
+    [menu_name] => Editable widget new
+    [position] => 4
+    [visible] => 1
+    [content] => This is a special type of widget where user can able to edit the widget as required 
+)
