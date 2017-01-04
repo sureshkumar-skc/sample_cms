@@ -2,7 +2,7 @@
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "root";
-$dbname = "widget_corp";
+$dbname = "sample_cms";
 
 define("DB_SERVER", $dbhost);
 define("DB_USER", $dbuser);
