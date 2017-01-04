@@ -28,13 +28,11 @@ if (isset ( $_POST ["submit"] )) {
 	$menu_name = mysql_prep($menu_name);
 	$content = mysql_prep($content);
 	
-	$query = "INSERT INTO pages(subject_id, menu_name, position, visible, content) VALUES('".$subject_id."', '".$menu_name."', '".$position."', '".$visible."', '".$content."')";
-// 	file_put_contents("Testlog.txt", print_r("\n query: ".$query, true), FILE_APPEND);
+	$query = "INSERT INTO pages(subject_id, menu_name, position, visible, content) VALUES(".$subject_id.", '".$menu_name."', ".$position.", ".$visible.", '".$content."')";
 	$result = mysqli_query($connection, $query);
-// 	file_put_contents("Testlog.txt", print_r("\n result: ".$result, true), FILE_APPEND);
 	if($result){
 		$_SESSION["message"] = "Page created";
-		redirect_to("manage_content.php".$subject_id);
+		redirect_to("manage_content.php?subject=".$subject_id);
 	}else {
 		$_SESSION["message"] = "Page creation failed";
 		redirect_to("new_page.php");

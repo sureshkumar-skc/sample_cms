@@ -1,8 +1,8 @@
 <?php
 $dbhost = "localhost";
 $dbuser = "root";
-$dbpass = "";
-$dbname = "widget_corp";
+$dbpass = "root";
+$dbname = "sample_cms";
 
 define("DB_SERVER", $dbhost);
 define("DB_USER", $dbuser);

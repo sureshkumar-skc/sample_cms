@@ -1,422 +1,1152 @@
-1subjectId: 1
- result: 
- query: INSERT INTO pages(subject_id, menu_name, position, visible, content) VALUES('2', Editable widget', '3', '0', 'This is a special type of widget where user can able to edit the widget as required')
- result: 
- query: INSERT INTO pages(subject_id, menu_name, position, visible, content) VALUES('2', 'Editable widget', '3', '0', 'This is a special type of widget where user can able to edit the widget as required')
- result: 1
- selected_page_detials: Array
- selected_page_detials: Array
- selected_page_detials: ArrayArray
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 0
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 9
-    [subject_id] => 2
-    [menu_name] => Editable widget
-    [position] => 3
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 0
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 9
-    [subject_id] => 2
-    [menu_name] => Editable widget
-    [position] => 3
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 4
-    [subject_id] => 2
-    [menu_name] => Small widgets
-    [position] => 2
-    [visible] => 1
-    [content] => They say big things come in small packages...
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required edited
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required edited
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required edited
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required edited
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required edited
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable wddddidget
-    [position] => 4
-    [visible] => 0
-    [content] => This is a special type of widget where user can able to edit the widget as required edited
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 3
-    [subject_id] => 2
-    [menu_name] => Large widgets
-    [position] => 1
-    [visible] => 1
-    [content] => Our large widget have to be seen to be beleived...
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 11
-    [subject_id] => 4
-    [menu_name] => Test misc
-    [position] => 1
-    [visible] => 1
-    [content] => Test
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget new
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget new
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget new
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget new
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget new
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget new
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
 )
-Array
+
+ admin_users: mysqli_result Object
 (
-    [id] => 10
-    [subject_id] => 2
-    [menu_name] => Editable widget new
-    [position] => 4
-    [visible] => 1
-    [content] => This is a special type of widget where user can able to edit the widget as required 
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 4
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 4
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 4
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 4
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 1
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 2
+    [type] => 0
+)
+
+ admin_users: mysqli_result Object
+(
+    [current_field] => 0
+    [field_count] => 3
+    [lengths] => 
+    [num_rows] => 3
+    [type] => 0
 )

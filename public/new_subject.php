@@ -2,9 +2,10 @@
 require_once ("../includes/session.php");
 require_once ("../includes/db_connections.php");
 require_once ("../includes/functions.php");
+$layout_content = "admin"; 
 include ("../includes/layouts/header.php");
 ?>
-<?php find_selected_page(); ?>
+<?php find_selected_items(); ?>
 <div id='main'>
 	<div id='navigation'>
        <?php echo navigation($selected_subject_details, $selected_page_details); ?>
@@ -25,7 +26,7 @@ include ("../includes/layouts/header.php");
 				Position: <select name="position">
 					<?php
 					
-					$subject_set = find_all_subjects ();
+					$subject_set = find_all_subjects (false);
 					$subject_count = mysqli_num_rows ( $subject_set );
 					for($count = 1; $count <= ($subject_count + 1); $count ++) {
 						echo "<option value=" . $count . ">" . $count . "</option>";
