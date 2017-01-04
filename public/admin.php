@@ -1,6 +1,7 @@
 <?php
 require_once("../includes/db_connections.php");
 require_once("../includes/functions.php");
+$layout_content = "admin"; 
 include("../includes/layouts/header.php");
 ?>
 <?php

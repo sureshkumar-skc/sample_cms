@@ -10,7 +10,7 @@ if (! $selected_subject_details) {
 }else{
 	$id = $selected_subject_details["id"];
 	$menu_name_delete = $selected_subject_details["menu_name"];
-	$pages_set = find_pages_by_subject_id($id);
+	$pages_set = find_pages_by_subject_id($id, false);
 	if(mysqli_num_rows($pages_set) > 0){
 		$_SESSION ["message"] = "Delete all the pages in ".$menu_name_delete;
 		redirect_to ( "manage_content.php?subject=".$id );

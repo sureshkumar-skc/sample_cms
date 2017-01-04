@@ -1,7 +1,7 @@
 <?php
 $dbhost = "localhost";
 $dbuser = "root";
-$dbpass = "";
+$dbpass = "root";
 $dbname = "widget_corp";
 
 define("DB_SERVER", $dbhost);
