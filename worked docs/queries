@@ -1,0 +1,17 @@
+UPDATE subjects SET position = position +1 WHERE position >= 2 AND position <7;
+
+UPDATE subjects SET position = position -1 WHERE position > 2 AND position <=7;
+
+UPDATE subjects SET position = 7 WHERE id = 10;
+
+SELECT position from subjects WHERE id = 2 LIMIT 1
+
+SELECT * FROM pages WHERE subject_id = 14;
+
+UPDATE pages SET position = position +1 WHERE subject_id = 2 AND position >= 2 AND position <4;
+
+UPDATE pages SET position = position -1 WHERE subject_id = 2 AND position > 2 AND position <=4;
+
+UPDATE pages SET position = 4 WHERE id= 10;
+
+

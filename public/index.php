@@ -8,7 +8,6 @@ include ("../includes/layouts/header.php");
 <?php find_selected_items(true); ?>
 <div id='main'>
     <div id='navigation'>
-        <a href="admin.php">&laquo; Main menu</a>
        <?php echo navigation_public($selected_subject_details, $selected_page_details); ?>
     </div>
     <div id='page'>

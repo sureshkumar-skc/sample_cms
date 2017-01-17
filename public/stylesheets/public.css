@@ -41,6 +41,25 @@ a:hover {
     margin: 0;
 }
 
+#header .companyname{
+    float: left;
+    width: 80%;
+    position: relative;
+}
+#header .editcompanyname{
+    padding: 2em;
+    float: left;
+    width: 10%;
+    position: relative;
+}
+
+#header a{
+    color: #D4E6F4;
+}
+#header a:hover{
+    color: #FFF;
+}
+
 #main {
     height: 550px;
     width: 100%;
@@ -61,17 +80,19 @@ a:hover {
 
 #navigation {
     float: left;
-    width: 150px;
+    width: 12%;
     height: 100%;
     margin: 0;
     padding: 0 2em;
     color: #D4E6F4;
     background: #8D0D19;
+    position: relative;
 }
 
 #navigation a {
     color: #D4E6F4;
     text-decoration: none;
+    word-wrap: break-word;
 }
 
 #navigation a:hover {
@@ -91,6 +112,7 @@ ul.pages {
 
 .selected {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .save {
@@ -105,14 +127,22 @@ ul.pages {
     padding-left: 2em;
     vertical-align: top;
     background: #EEE4B9;
+    width: 80%;
+    position:relative;
 }
 
 #users {
-     float: left;
-    height: 100%;
-    padding-left: 2em;
+    float: left;
+    height: 90%;
+    padding: 2em;
     vertical-align: top;
     background: #EEE4B9;
+    width: 80%;
+    position: relative;
+}
+
+#users.login{
+    text-align: center;
 }
 
 #users th{
@@ -121,7 +151,12 @@ ul.pages {
     text-align: left;
     padding: 1em 0;
 }
-#page, #users h2 {
+#users h2 {
+    color: #8D0D19;
+    margin-top: 1em;
+}
+
+#page h2 {
     color: #8D0D19;
     margin-top: 1em;
 }
@@ -131,7 +166,11 @@ ul.pages {
 }
 
 .view-content{
-    margin: 1em; padding: 1em; border: 1px solid #999;
+    margin: 1em; 
+    padding: 1em; 
+    border: 1px solid #999; 
+    display: block;
+    word-wrap: break-word;
 }
 div.message {
     border: 1px solid #8D0D19;
@@ -139,11 +178,15 @@ div.message {
     font-weight: bold;
     margin: 2em 0;
     padding: 1em;
+    display: inline-table;
 }
 
 .errors{
-    color: #8D0D19; border: 2px solid #8D0D19;
-    margin: 1em 0; padding: 1em;
+    color: #8D0D19; 
+    border: 2px solid #8D0D19;
+    margin: 1em 0; 
+    padding: 1em;
+    display: inline-table;
 }
 .errors ul {
     padding-left: 2em;

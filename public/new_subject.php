@@ -40,8 +40,9 @@ include ("../includes/layouts/header.php");
 			</p>
 			<input class="save" type="submit" name="submit"
 				value="Create Subject" />
+                        &nbsp;&nbsp;
+                        <a href="manage_content.php">Cancel</a>
 		</form>
-		<br /> <a href="manage_content.php">Cancel</a>
 	</div>
 </div>
 

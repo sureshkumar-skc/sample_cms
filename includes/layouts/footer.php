@@ -1,4 +1,4 @@
-<div id='footer'> Copyright &copy; <?php echo date("Y")?>, Widget Corp </div>
+<div id='footer'> Copyright &copy; 2016 - <?php echo date("Y")?>, <?php echo get_company_name() ?> </div>
 
 </body>
 </html>
