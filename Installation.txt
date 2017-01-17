@@ -1,0 +1,15 @@
+Requirements:
+- Php 5.6 or more, mysql, apache webserver
+
+Installation procedure 
+- Copy the sample_cms in www/ folder 
+- create the database with name sample_cms and import sample_cms file using source tool
+- Change the database credantial in sample_cms/includes/db_connections.php
+- Now navigate through browser (http://localhost/sample_cms/public) 
+- For admins (http://localhost/sample_cms/public/login.php) 
+username1: admin@admin.com
+Password1: admin
+
+username2: suresh
+password2: kumar
+ 

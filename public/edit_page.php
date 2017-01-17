@@ -3,6 +3,7 @@ require_once ("../includes/session.php");
 require_once ("../includes/db_connections.php");
 require_once ("../includes/functions.php");
 require_once ("../includes/validation_functions.php");
+confirm_logged_in();
 ?>
 <?php find_selected_items(); ?>
 <?php
@@ -31,15 +32,17 @@ if (isset($_POST ["submit"])) {
         $menu_name = $_POST ["menu_name"];
         $menu_name = mysql_prep($menu_name);
         $position = (int) $_POST ["position"];
+        $old_position = $selected_page_details["position"];
         if (!isset($_POST ["visible"])) {
             $_POST ["visible"] = null;
         }
         $visible = (int) $_POST ["visible"];
         $content = $_POST ["content"];
         $subject_id = (int) $_POST["subject_id"];
+        $position_swap = page_position_swap($old_position, $position, $subject_id);
         $query = "UPDATE pages SET subject_id = '" . $subject_id . "', menu_name='" . $menu_name . "', position=" . $position . ", content = '" . $content . "', visible=" . $visible . " WHERE id=" . $id . " LIMIT 1";
         $result = mysqli_query($connection, $query);
-        if ($result && mysqli_affected_rows($connection) >= 0) {
+        if ($position_swap && $result && mysqli_affected_rows($connection) >= 0) {
             $_SESSION ["message"] = "Page Updated";
             redirect_to("manage_content.php?page=" . $id);
         } else {

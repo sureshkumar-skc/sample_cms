@@ -2,6 +2,7 @@
 require_once ("../includes/session.php");
 require_once ("../includes/db_connections.php");
 require_once ("../includes/functions.php");
+confirm_logged_in();
 $layout_content = "admin";
 include ("../includes/layouts/header.php");
 ?>
@@ -15,15 +16,8 @@ include ("../includes/layouts/header.php");
     <div id='page'>
         <h2>Manage Content</h2>
         <?php echo message(); ?>
-        <!--  <p>Welcome to the manage area.</p> -->
         <?php if ($selected_subject_details) { ?>
             <h3>Manage Subject</h3>
-            <!-- <?php
-// 									echo "selected_subject_details </br>";
-// 									print_r ( $selected_subject_details );
-// 									
-            ?> -->
-
             <br/>
             Menu Name: <?php echo htmlentities($selected_subject_details["menu_name"]) ?><br>
             Position: <?php echo $selected_subject_details["position"] ?><br>
@@ -49,16 +43,11 @@ include ("../includes/layouts/header.php");
 
         <?php } else if ($selected_page_details) { ?>
             <h3>Manage Page</h3>
-            <!--  <?php
-//  									echo "selected_page_details </br>";
-//  									print_r ( $selected_page_details );
-// 									echo "<br>";
-            ?>  -->
             Menu Name: <?php echo htmlentities($selected_page_details["menu_name"]) ?><br>
             Position: <?php echo $selected_page_details["position"] ?><br>
             Visible: <?php echo $selected_page_details["visible"] == 1 ? "Yes" : "No" ?><br>
             Content: <br> 
-            <div class="view-content"><?php echo htmlentities($selected_page_details["content"]); ?></div>
+            <p class="view-content"><?php echo htmlentities($selected_page_details["content"]); ?></p>
             <a href="edit_page.php?page=<?php echo urlencode($selected_page_details["id"]); ?>">Edit page</a>
             &nbsp; &nbsp;
             <a href="delete_page.php?page=<?php echo urlencode($selected_page_details["id"]); ?>" onclick="return confirm('Are you sure to delete?')">Delete page</a>

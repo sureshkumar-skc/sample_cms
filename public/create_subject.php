@@ -3,6 +3,7 @@
 require_once ("../includes/db_connections.php");
 require_once ("../includes/functions.php");
 require_once ("../includes/validation_functions.php");
+confirm_logged_in();
 ?>
 <?php
 if (isset ( $_POST ["submit"] )) {
@@ -23,13 +24,13 @@ if (isset ( $_POST ["submit"] )) {
 		$_SESSION["form_errors"] = $errors;
 		redirect_to("new_subject.php");
 	}
+        $position_swift = subject_position_increment_swift($position); 
 	$menu_name = mysql_prep($menu_name);
-	
 	$query = "INSERT INTO subjects (menu_name, position, visible) VALUES ('".$menu_name."', '".$position."', '".$visible."')";
 	
 	$result = mysqli_query($connection, $query);
 	
-	if($result){
+	if($position_swift && $result){
 		$_SESSION["message"] = "Subject created";
 		redirect_to("manage_content.php");
 	}else {

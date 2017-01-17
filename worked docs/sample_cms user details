@@ -1,0 +1,7 @@
+mysql> select * from admins where id in(1,2);
++----+-----------------+--------------------------------------------------------------+-------+
+| id | username        | hashed_password                                              |		  |
++----+-----------------+--------------------------------------------------------------+-------+
+|  1 | suresh          | $2y$10$F2gyEaFDyFs4IHVpUg7jmOtKkvGcE/zsVXflGsoPMvIo1AvZZUelm |kumar  |
+|  2 | admin@admin.com | $2y$10$cfONVnlgM4Bi1vhA7xEaSuOOmRaJz8nx.5F5MfD/IcR/TLi2/xdMe |admin  |
++----+-----------------+--------------------------------------------------------------+-------+

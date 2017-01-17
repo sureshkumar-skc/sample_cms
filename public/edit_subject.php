@@ -3,6 +3,7 @@ require_once ("../includes/session.php");
 require_once ("../includes/db_connections.php");
 require_once ("../includes/functions.php");
 require_once ("../includes/validation_functions.php");
+confirm_logged_in();
 ?>
 <?php find_selected_items(); ?>
 <?php
@@ -30,15 +31,17 @@ if (isset($_POST ["submit"])) {
         $menu_name = $_POST ["menu_name"];
         $menu_name = mysql_prep($menu_name);
         $position = (int) $_POST ["position"];
+        $old_position = $selected_subject_details["position"];
+        $position_swapping = subject_position_swap($old_position, $position);
         if (!isset($_POST ["visible"])) {
             $_POST ["visible"] = null;
         }
         $visible = (int) $_POST ["visible"];
         $query = "UPDATE subjects SET menu_name='" . $menu_name . "', position=" . $position . ", visible=" . $visible . " WHERE id=" . $id . " LIMIT 1";
         $result = mysqli_query($connection, $query);
-        if ($result && mysqli_affected_rows($connection) >= 0) {
+        if ($position_swapping && $result && mysqli_affected_rows($connection) >= 0) {
             $_SESSION ["message"] = "Subject Updated";
-            redirect_to("manage_content.php");
+            redirect_to("manage_content.php?subject=".$id);
         } else {
             $message = "Subject Updation failed";
         }

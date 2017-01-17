@@ -4,6 +4,7 @@
 require_once ("../includes/db_connections.php");
 require_once ("../includes/functions.php");
 require_once ("../includes/validation_functions.php");
+confirm_logged_in();
 ?>
 <?php
 
@@ -25,12 +26,13 @@ if (isset ( $_POST ["submit"] )) {
 		$_SESSION["form_errors"] = $errors;
 		redirect_to("new_page.php?subject=".$subject_id);
 	}
+        $position_swift = page_position_increment_swift($position, $subject_id);
 	$menu_name = mysql_prep($menu_name);
 	$content = mysql_prep($content);
 	
 	$query = "INSERT INTO pages(subject_id, menu_name, position, visible, content) VALUES(".$subject_id.", '".$menu_name."', ".$position.", ".$visible.", '".$content."')";
 	$result = mysqli_query($connection, $query);
-	if($result){
+	if($position_swift && $result){
 		$_SESSION["message"] = "Page created";
 		redirect_to("manage_content.php?subject=".$subject_id);
 	}else {
